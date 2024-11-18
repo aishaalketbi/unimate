@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/unimate/static/css/main.c502bf56.css",
-    "main.js": "/unimate/static/js/main.735a4bdc.js",
+    "main.js": "/unimate/static/js/main.0d2dd8a4.js",
     "static/media/DALL·E 2024-10-29 15.11.00 - A university campus scene with a soft purple-themed color palette. The scene features students casually interacting, some on their phones as if swipin copy.png": "/unimate/static/media/DALL·E 2024-10-29 15.11.00 - A university campus scene with a soft purple-themed color palette. The scene features students casually interacting, some on their phones as if swipin copy.50cfe84c5039ebd8a470.png",
     "static/media/logologo copy 2.png": "/unimate/static/media/logologo copy 2.21d648f03d262d3567d2.png",
     "static/media/color-logo-tinder.png": "/unimate/static/media/color-logo-tinder.e5ab4ca8a223b9cec959.png",
     "static/media/tinder_logo_white.png": "/unimate/static/media/tinder_logo_white.2a7043195a41346a00a7.png",
     "index.html": "/unimate/index.html",
     "main.c502bf56.css.map": "/unimate/static/css/main.c502bf56.css.map",
-    "main.735a4bdc.js.map": "/unimate/static/js/main.735a4bdc.js.map"
+    "main.0d2dd8a4.js.map": "/unimate/static/js/main.0d2dd8a4.js.map"
   },
   "entrypoints": [
     "static/css/main.c502bf56.css",
-    "static/js/main.735a4bdc.js"
+    "static/js/main.0d2dd8a4.js"
   ]
 }
