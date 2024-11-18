@@ -30,7 +30,7 @@ const Dashboard = () => {
     }
     const getGenderedUsers = async () => {
         try {
-            const response = await axios.get('http://unimate.herokuapp.com/gendered-users', {
+            const response = await axios.get('https://unimate.herokuapp.com/gendered-users', {
                 params: {gender: user?.gender_interest}
             })
             setGenderedUsers(response.data)
@@ -52,7 +52,7 @@ const Dashboard = () => {
 
     const updateMatches = async (matchedUserId) => {
         try {
-            await axios.put('http://unimate.herokuapp.com/addmatch', {
+            await axios.put('https://unimate.herokuapp.com/addmatch', {
                 userId,
                 matchedUserId
             })
