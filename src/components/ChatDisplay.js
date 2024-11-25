@@ -14,7 +14,7 @@ const ChatDisplay = ({ user, clickedUser}) => {
 
         try {
 
-            const response = await axios.get('https://unimate.herokuapp.com/messages', {
+            const response = await axios.get('https://unimate-60451468218e.herokuapp.com/messages', {
                 params: {userId: userId, correspondingUserId: clickedUserId}
             })
              setUsersMessages(response.data)
@@ -27,7 +27,7 @@ const ChatDisplay = ({ user, clickedUser}) => {
 
         try {
 
-            const response = await axios.get('https://unimate.herokuapp.com/messages', {
+            const response = await axios.get('https://unimate-60451468218e.herokuapp.com/messages', {
                 params: {userId: clickedUserId, correspondingUserId: userId}
             })
             setClickedUsersMessages(response.data)

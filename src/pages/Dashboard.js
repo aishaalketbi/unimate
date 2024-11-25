@@ -20,7 +20,7 @@ const Dashboard = () => {
 
     const getUser = async () => {
         try {
-            const response = await axios.get('https://unimate.herokuapp.com/user', {
+            const response = await axios.get('https://unimate-60451468218e.herokuapp.com/user', {
                 params: {userId}
             })
             setUser(response.data)
@@ -30,7 +30,7 @@ const Dashboard = () => {
     }
     const getGenderedUsers = async () => {
         try {
-            const response = await axios.get('https://unimate.herokuapp.com/gendered-users', {
+            const response = await axios.get('https://unimate-60451468218e.herokuapp.com/gendered-users', {
                 params: {gender: user?.gender_interest}
             })
             setGenderedUsers(response.data)
@@ -52,7 +52,7 @@ const Dashboard = () => {
 
     const updateMatches = async (matchedUserId) => {
         try {
-            await axios.put('https://unimate.herokuapp.com/addmatch', {
+            await axios.put('https://unimate-60451468218e.herokuapp.com/addmatch', {
                 userId,
                 matchedUserId
             })
